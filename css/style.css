@@ -327,3 +327,49 @@ nav ul a:hover{
     margin-right: 6px;
     max-width: 16px;
 }
+
+/* brain area end*/
+
+/* access area start */
+.access_wrapper{
+    margin-bottom: 120px;
+}
+
+.access_content{
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    padding: 80px 0;
+}
+
+.access_content h2{
+    font-size: 40px;
+    color:#001931;
+    font-weight: 700;
+}
+
+.access_content p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    max-width: 589px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.access_content .section_btn{
+    margin-top: 24px;
+}
+
+.access_content .section_btn .btn:hover{
+    background-color: #001931;
+}
+
+.access_content .access_message{
+    display: inline-block;
+    padding-top: 16px;
+    font-size: 16px;
+    color: #627382;
+}
+
+/* access area end */
