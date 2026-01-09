@@ -225,6 +225,8 @@ nav ul a:hover{
 .notes_heading p{
     padding-top: 16px;
     color: #627382;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .notes_card_wrap{
