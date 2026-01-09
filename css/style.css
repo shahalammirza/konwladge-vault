@@ -269,3 +269,61 @@ nav ul a:hover{
 }
 
 /* notes area end */
+
+/* brain area start*/
+.brain_wrapper{
+    padding: 120px 0;
+}
+
+.brain_box_wrap{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.brain_box_wrap .brain_img img{
+    max-width: 600px;
+    object-fit: cover;
+}
+
+.brain_content h5{
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #469165;
+    padding-bottom: 16px;
+}
+
+.brain_content .title {
+    max-width: 640px;
+    padding-bottom: 16px;
+}
+
+.brain_content p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    max-width: 464px;
+}
+
+.brain_content ul{
+    padding-top: 40px;
+}
+
+.brain_content ul li{
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #001931;
+    line-height: 20px;
+}
+
+.brain_content ul li:last-child{
+    margin-bottom: 0px;
+}
+
+.brain_content ul li img{
+    margin-right: 6px;
+    max-width: 16px;
+}
