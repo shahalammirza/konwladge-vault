@@ -1,10 +1,14 @@
+/*==================== ASSIGNMENT 01 CSS ====================*/
+
+
+
+/* Common Css are start*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Common Css are */
 body{ 
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -86,6 +90,7 @@ li{
     color: #001931;
     font-weight: 700;
 }
+/* Common Css are end*/
 
 
 /* header area start */
@@ -207,6 +212,7 @@ nav ul a:hover{
 }
 /* hero area end */
 
+
 /* notes area start */
 .notes_wrapper{
     margin-top: 62px;
@@ -238,6 +244,7 @@ nav ul a:hover{
     align-items: center;
     margin-top: 44px;
 }
+
 .icon_box{
     height: 60px;
     width: 60px;
@@ -267,8 +274,8 @@ nav ul a:hover{
     max-width: 274px;
     margin: 0 auto;
 }
-
 /* notes area end */
+
 
 /* brain area start*/
 .brain_wrapper{
@@ -327,8 +334,8 @@ nav ul a:hover{
     margin-right: 6px;
     max-width: 16px;
 }
-
 /* brain area end*/
+
 
 /* access area start */
 .access_wrapper{
@@ -371,5 +378,58 @@ nav ul a:hover{
     font-size: 16px;
     color: #627382;
 }
-
 /* access area end */
+
+
+/* footer area start */
+.footer_wrapper{
+    background-color: #001931;
+    padding: 120px 0 30px;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.footer_top .footer_logo a{
+    display: inline-block;
+}
+
+.footer_top .footer_logo a img{
+    max-width: 139px;
+}
+
+.footer_social{
+    margin-right: 107px;
+}
+
+.footer_social h4{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer_social ul{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.footer_social ul img{
+    max-width: 20px;
+}
+
+.footer_bottom{
+    border-top: 1px solid rgba(229, 231, 235, 0.2);
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer_bottom small{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+}
+/* footer area end */
